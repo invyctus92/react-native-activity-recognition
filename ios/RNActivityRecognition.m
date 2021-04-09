@@ -13,7 +13,12 @@
     return dispatch_get_main_queue();
 }
 
-RCT_EXPORT_MODULE()
++ (BOOL)requiresMainQueueSetup
+{
+    return YES;
+}
+
+RCT_EXPORT_MODULE();
 
 float _timeout = 1.0;
 
