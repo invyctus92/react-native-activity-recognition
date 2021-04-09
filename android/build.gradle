@@ -39,5 +39,6 @@ android {
 
 dependencies {
     api 'com.facebook.react:react-native:+'
-    api 'com.google.android.gms:play-services:+'
+    // api 'com.google.android.gms:play-services:+'
+    compile 'com.google.android.gms:play-services-location:10.0.1'
 }
